@@ -1,0 +1,29 @@
+{
+  "name": "takehometest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "test:scenario1": "mocha test/scenario1.js",
+    "test:scenario2": "mocha test/scenario2.js",
+    "test:scenario3": "mocha test/scenario3.js",
+    "test:scenario4": "mocha test/scenario4.js",
+    "test:scenario5": "mocha test/scenario5.js",
+    "test:scenario6": "mocha test/scenario6.js",
+    "test:scenario7": "mocha test/scenario7.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/cli": "^7.23.4",
+    "@babel/core": "^7.23.3",
+    "@babel/node": "^7.22.19",
+    "@babel/preset-env": "^7.23.3",
+    "@babel/register": "^7.22.15",
+    "chai": "^4.3.10",
+    "mocha": "^10.2.0",
+    "supertest": "^6.3.3"
+  }
+}

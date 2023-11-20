@@ -1,0 +1,21 @@
+#Node.js
+node_modules/
+
+#Mocha
+.mocha
+
+#Babel
+.babelrc*
+babel.config*
+
+#Logs
+logs/
+*.log
+
+#Output of npm pack
+*.tgz
+
+#Yarn
+yarn-error.log
+.pnp.*
+yarn.lock
